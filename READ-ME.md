@@ -12,7 +12,7 @@ Brand color: #e67e22
 
 ### Summary
 
-The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs. We have delivered 250,000+ meals last year!
+Our baked goods will make you feel like you are being hugged in every bit. All based on your personal tastes and nutritional needs. We have delivered 50,000+ BakeDash boxes last year! Choose between two of our subscriptions to get the best deals.
 
 ### BakeDash features
 
