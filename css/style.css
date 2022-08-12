@@ -48,10 +48,46 @@ a {
   text-decoration: none;
 }
 
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to top right, #e8a76647, #c7770ed6);
+  height: 9.6rem;
+  padding: 0 4.8em;
+}
+
+.logo {
+  height: 4.2rem;
+}
+
+/* nav */
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 3em;
+}
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  transition: all 0.3s;
+  color: var(--primary);
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #fff;
+}
+
 /* section hero */
 .section-hero {
   background: linear-gradient(to bottom right, #e8a76647, #c7770ed6);
-  padding: 9.6rem 0;
+  padding: 4.8 0 9.6rem 0;
 }
 
 /* containers */
