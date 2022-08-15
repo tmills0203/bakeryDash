@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/util.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -64,12 +66,12 @@
             How we get our fresh bakery goods into your hands
           </h2>
 
-          <div class="container grid grid-2-cols">
+          <div class="container grid grid-2-cols grid-center-vtl">
             <!-- step 1 -->
             <div class="step-content">
               <p class="step-number">1</p>
               <h3 class="step-heading">
-                We have you in mind. Tells us what is your likes and dislikes!
+                We have you in mind. Tell us what is your likes and dislikes!
               </h3>
               <p class="step-desc">
                 It's a 100% personalized weekly meal plan just for you. Every
@@ -79,14 +81,14 @@
             </div>
 
             <div class="step-img-container">
-              <img class="step-img" src="img/prep.jpg" alt="man-baking" />
+              <img class="step-img" src="img/baker.png" alt="man-baking" />
             </div>
 
             <!-- step 2 -->
             <div class="step-img-container">
               <img
                 class="step-img"
-                src="img/orderOnline.jpg"
+                src="img/smartphone-1184883.png"
                 alt="man-ordering-online"
               />
             </div>
@@ -106,22 +108,55 @@
             <div class="step-content">
               <p class="step-number">3</p>
               <h3 class="step-heading">Ready to checkout?</h3>
+
               <p class="step-desc">
                 When you are ready, go through our hassle-free checkout process
                 and select how frequently you would like your baked goods at
                 your door! You can cancel anytime if our products are not for
                 you. No questions asked!
               </p>
+              <!-- <img class="bread" src="./img/bread.png" alt="" /> -->
             </div>
             <div class="step-img-container">
               <img
                 class="step-img"
-                src="img/deliverToDoor.jpg"
+                src="img/delivery-guy(1).png"
                 alt="woman-delivering-box"
               />
             </div>
           </div>
         </div>
+      </section>
+
+      <!-- bread baskets -->
+      <section class="section-baskets">
+        <div class="container">
+          <span class="sub-heading">Sample Baskets</span>
+          <h2 class="head-secondary">
+            Want to try a sample basket?
+          </h2>
+          
+
+          <div class="container grid grid-3-cols">
+            <div class="basket">
+              <img src="./img/bread-basket.jpg" alt="bread in basket" class="basket-img">
+            
+              <p class="basket-title">Bread basket sampler </p>
+              <ul class="bread-selections">
+                <li class="selection">
+                  <i class="fa-solid fa-wheat-awn"></i>
+                  <span>Rye</span>
+                </li>
+                <li class="selection"><i class="fa-solid fa-wheat-awn"></i>Sourdough</li>
+                <li class="selection"><i class="fa-solid fa-ban"></i>Gluten-free</li>
+                <li class="selection"><i class="fa-solid fa-wheat-awn"></i>Dutch-Oven</li>
+                <li class="selection"><i class="fa-solid fa-wheat-awn"></i>Focaccia</li>
+              </ul>
+            </div>
+            <div class="basket">basket 2</div>
+            <div class="picks">picks</div>
+          </div>
+         
       </section>
     </main>
   </body>

@@ -1,7 +1,8 @@
 /* util */
 .grid {
   display: grid;
-  gap: 4.6em;
+  column-gap: 4.6em;
+  row-gap: 8.6em;
   grid-template-columns: repeat(2, 1fr);
 }
 .grid-2-cols {
@@ -11,15 +12,18 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+.grid-center-vtl {
+  align-items: center;
+}
+
 .margin-right-sm {
   margin-right: 1.2em !important;
 }
 
 /* containers */
 .container {
-  max-width: 120rem;
+  max-width: 130rem;
   margin: 0 auto;
-  padding: 0 3.2em;
 }
 
 .grid-container {

@@ -44,10 +44,6 @@
   padding: 4.8 0 9.6rem 0;
 }
 
-.step-img {
-  width: 50%;
-}
-
 /*  hero img */
 .hero-img {
   max-width: 125%;
@@ -68,27 +64,27 @@
   margin-bottom: 2em;
 }
 
-/* comfort span */
-.comfort {
-  background: linear-gradient(to bottom right, #9068ca, #3d066a);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 /* section steps */
 .section-steps {
-  background-color: #f6f4f157;
+  background-color: #ffe5be;
   padding: 6em;
 }
 
-.section-steps div div {
-  padding: 1.5em;
+.section-steps div div div {
+  padding: 1.7em;
   font-size: 26px;
-  background-color: #c69f571a;
 }
 
 .step-content {
   font-size: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  background-color: #b36a2a2e;
+  padding-top: 3.5em;
+}
+
+.step-content,
+.step-img-container {
+  border-radius: 20px;
 }
 
 .step-number {
@@ -99,7 +95,49 @@
   color: #7f7897;
 }
 
+/* step number and comfort */
+.step-number,
+.comfort {
+  background: linear-gradient(to bottom right, #9068ca, #bc88e6);
+}
+.comfort {
+  background: linear-gradient(to bottom right, #9068ca, #3d066a);
+}
+.comfort,
+.step-number {
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.step-heading {
+  font-size: 3.8rem;
+  line-height: 1.2;
+  margin-bottom: 0.7em;
+}
+
 .step-desc {
+  line-height: 1.5;
+  font-size: 2.8rem;
+}
+
+/* step img */
+.step-img-container {
+  display: flex;
+}
+
+.step-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.step-img[src="img/smartphone-1184883.png"] {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.step-img[src="img/baker.png"] {
+  width: 620px;
+  margin: 0 auto;
 }
 
 /* sub heading / head secondary */
@@ -121,6 +159,34 @@
   display: block;
   letter-spacing: -0.7px;
   margin-bottom: 0.5em;
-  color: #5d33df;
+  color: #5e5679;
   text-transform: uppercase;
+}
+
+/* BASKEST */
+.section-baskets {
+  margin: 8em;
+  padding: 6em;
+}
+
+.basket-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 0.8em;
+}
+
+.bread-selections {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+}
+
+.selection {
+  font-size: 1.8rem;
+}
+
+.basket-img {
+  width: 100%;
 }
