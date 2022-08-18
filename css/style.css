@@ -164,6 +164,17 @@
 }
 
 /* BASKEST */
+
+.basket {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.basket-content {
+  padding: 1em 4em 2.5em 4em;
+}
+
 .section-baskets {
   margin: 8em;
   padding: 6em;
@@ -173,7 +184,8 @@
   font-size: 2.4rem;
   color: #333;
   font-weight: 600;
-  margin-bottom: 0.8em;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 .bread-selections {
@@ -183,10 +195,20 @@
   list-style: none;
 }
 
-.selection {
+.bread-selection {
   font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
 }
 
 .basket-img {
   width: 100%;
+}
+
+/* icons */
+.icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: rgba(102, 27, 98, 0.616);
 }
