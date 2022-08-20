@@ -20,6 +20,10 @@
   margin-right: 1.2em !important;
 }
 
+.margin-bottom-md {
+  margin-bottom: 3.5em !important;
+}
+
 /* containers */
 .container {
   max-width: 130rem;
@@ -75,4 +79,20 @@
 .btn-learn:hover {
   background: linear-gradient(to bottom right, #fff, #c99dec);
   color: #6617c6;
+}
+
+/* link */
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #6617c6;
+  transition: all 0.3s;
+}
+.link:hover,
+.link:active {
+  color: #c8b7db;
+}
+
+.center-text {
+  text-align: center;
 }
