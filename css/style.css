@@ -237,6 +237,46 @@ li.option-item {
   font-size: 2rem;
 }
 
+/* testimonals */
+.section-testimonials {
+  padding: 6.5em 28em;
+  background-color: #b36a2a2e;
+}
+
+.section-testimonials .head-secondary {
+  margin-bottom: 1.8em;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 2em;
+}
+
+.testimonial {
+  width: 100%;
+}
+
+.testimonial-img {
+  width: 14.4rem;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1em;
+}
+
+.testimonial-name {
+  font-size: 1.5rem;
+  color: rgba(98, 89, 146, 0.897);
+}
+
+/* gallery */
+
 /* icons */
 .icon {
   height: 2.4rem;
