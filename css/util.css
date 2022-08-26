@@ -5,6 +5,12 @@
   row-gap: 8.6em;
   grid-template-columns: repeat(2, 1fr);
 }
+
+/* if not last child */
+.grid:not(:last-child) {
+  margin-bottom: 9em;
+}
+
 .grid-2-cols {
   grid-template-columns: repeat(2, 1fr);
 }

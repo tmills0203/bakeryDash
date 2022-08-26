@@ -66,7 +66,7 @@
 
 /* section steps */
 .section-steps {
-  background-color: #ffe5be;
+  background: linear-gradient(to bottom right, #ffffffad, #ffdcaf7d);
   padding: 6em;
 }
 
@@ -220,6 +220,10 @@ li.option-item {
 }
 
 /* diet options */
+.diets {
+  margin-left: 2em;
+}
+
 .diets .head-secondary {
   font-size: 3rem;
 }
@@ -239,7 +243,8 @@ li.option-item {
 
 /* testimonals */
 .section-testimonials {
-  padding: 6.5em 28em;
+  margin: -2em;
+  padding: 6em;
   background-color: #b36a2a2e;
 }
 
@@ -251,7 +256,8 @@ li.option-item {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  gap: 2em;
+  gap: 9em;
+  text-align: center;
 }
 
 .testimonial {
@@ -276,6 +282,106 @@ li.option-item {
 }
 
 /* gallery */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr 1fr);
+}
+.gallery-item img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* subscription */
+.subscription {
+  margin: -2em;
+  padding: 6em;
+}
+
+.sub-plan {
+  background-color: #b36a2a2e;
+  margin: 7em 0em 3em;
+  text-align: center;
+  border-radius: 11px;
+  padding: 11em 2em;
+  width: 75%;
+  overflow: hidden;
+}
+
+.sub-name {
+  font-weight: 600;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 0.5em;
+  color: #1e1c1c;
+}
+
+.sub-plan_weekly {
+  justify-self: center;
+}
+
+.sub-plan_monthly {
+  background: #f4a14e;
+
+  background: -moz-radial-gradient(top left, #f7b574, #ffedcf);
+  background: radial-gradient(to bottom right, #f4a14e, #f7dfb7);
+  position: relative;
+}
+
+.sub-plan_monthly::after {
+  top: 2%;
+  right: -12%;
+  content: "Best Value";
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: #bb93e3;
+  color: #fff;
+  padding: 0.7em 6em;
+  transform: rotate(19deg);
+}
+
+.sub-price {
+  color: rgb(76, 61, 153);
+  font-size: 6.2rem;
+  margin: 0.2em 0;
+}
+
+.sub-price span {
+  margin-right: 0.1em;
+  font-size: 4rem;
+}
+
+.sub-freeDel {
+  font-size: 1.5rem;
+  margin-bottom: 0em;
+  color: #333;
+}
+
+.sub-price,
+.sub-freeDel {
+  display: inline-block;
+}
+
+.sub-desc {
+  font-size: 2rem;
+  line-height: 1.8;
+}
+
+.sub-btn {
+  background-image: linear-gradient(to bottom, #ddc7aa, #f8eedb);
+  transition: all 0.1s ease-in;
+  margin-top: 1.2em;
+}
+
+.sub-btn:hover {
+  background-image: linear-gradient(to bottom, #bb93e3, #742391);
+  color: #fff;
+}
 
 /* icons */
 .icon {
