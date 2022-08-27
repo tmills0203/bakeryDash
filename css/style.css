@@ -385,14 +385,20 @@ li.option-item {
 
 /* feature */
 .feature {
+  text-align: center;
+  border: 2px solid #ddc7aa;
+  border-radius: 20px;
+  padding: 4.2em 2em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .feature-icon {
   color: #3d066a;
   font-size: 2.7rem;
   height: 2.4rem;
-  width: 2.4rem;
   margin-bottom: 1em;
+  padding: 1em;
 }
 
 .feature-title {
@@ -405,6 +411,34 @@ li.option-item {
   font-size: 1.8rem;
   line-height: 1.5;
 }
+
+/* cta */
+
+.section-cta {
+  padding: 9.6em 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background: #855bd3;
+  background: linear-gradient(to bottom right, #9068ca, #3d066a);
+  height: 50rem;
+  border-radius: 11px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  overflow: hidden;
+}
+
+/* .cta-text {
+} */
+
+.cta-img {
+  background-image: url(../img/eatingDonut.png);
+  background-size: cover;
+  background-position: -11em 0em;
+  background-repeat: no-repeat;
+}
+
 /* icons */
 .icon {
   height: 2.4rem;
