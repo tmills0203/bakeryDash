@@ -429,14 +429,34 @@ li.option-item {
   overflow: hidden;
 }
 
-/* .cta-text {
-} */
+.cta-content {
+  color: #f2eeeae3;
+  padding: 4.5em 5em;
+}
+
+.cta-content .head-secondary {
+  color: #f2eeea;
+  margin-bottom: 0.5em;
+}
+
+.cta-desc {
+  line-height: 1.8;
+  font-size: 2.2em;
+  margin-bottom: 2.3em;
+}
 
 .cta-img {
   background-image: url(../img/eatingDonut.png);
   background-size: cover;
   background-position: -11em 0em;
   background-repeat: no-repeat;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3em;
+  row-gap: 2em;
 }
 
 /* icons */
