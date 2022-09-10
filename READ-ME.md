@@ -1,47 +1,24 @@
-# BakeDash
+## About BakeryDash
 
-## About BakeDash
+BakeryDash is a site where user can pick which subscribtion on how oftern they can recive their baked goods that will be delievered to the user home. user pick what baked goods they would like. Then the user order will be shipped to their home.
 
-## Branding
-
-Headline: A comfort in a box delivered to your door, every single day
-
-Brand color: #e67e22
-
-## BakeDash Website Content
+## BakeryDash Website Content
 
 ### Summary
 
-Our baked goods will make you feel like you are being hugged in every bit. All based on your personal tastes and nutritional needs. We have delivered 50,000+ BakeDash boxes last year! Choose between two of our subscriptions to get the best deals.
+Our baked goods will make you feel like you are being hugged in every bit. All based on your personal tastes and nutritional needs. We have delivered 50,000+ BakeryDash boxes last year! Choose between two of our subscriptions to get the best deals.
 
-### BakeDash features
+### BakeryDash features
+
+The site has a focus that will have a dotted purple color for accessibility design
 
 ### How BakeDash works
 
+The website works by the user picking out what type of baked goods they would like to be delivered to their homes. Then the user goes through the checkout process to have their order delivered to their address.
+
 **How we get our fresh bakery goods into your hands**
 
-### BakeDash works with any diet
-
-
-Vegan
-Gluten-free
-Lactose-free
-Keto
-
-### Sample meals
-
-**BakeryDash chooses from 5,000+ recipes**
-
-bread sample basket
-sweets sample basket
-
-
-### We have 2 pricing plans
-
-
-
 ### Contact information
-
 
 Social profiles: instagram, facebook, twitter [links to them not available yet]
 
@@ -51,10 +28,12 @@ Create account
 Sign in
 iOS app
 Android app
+
 About BakeDash
 For Business
 Cooking partners
 Careers
+
 Recipe directory
 Help center
 Privacy & terms

@@ -21,13 +21,20 @@ accent: #1249e6, #f7cde0
 accent: #6a39ff, #8b3dc2
 accent: #b667c4, #1576ea
 
-      
+
 */
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+*:focus {
+  outline: none;
+  /* outline: dotted 4px #6a39ff;
+  outline-offset: 2px; */
+  box-shadow: rgba(149, 121, 252, 0.58) 0 0 0 0.4em;
 }
 
 html {
