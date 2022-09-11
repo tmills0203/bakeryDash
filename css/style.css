@@ -67,7 +67,12 @@
 /* section steps */
 .section-steps {
   background: linear-gradient(to bottom right, #ffffffad, #ffdcaf7d);
-  padding: 6em;
+  padding: 9.6em;
+}
+
+.section-steps .head-secondary,
+.section-baskets .head-secondary {
+  margin-bottom: 1.8em;
 }
 
 .section-steps div div div {
@@ -100,11 +105,19 @@
 .comfort {
   background: linear-gradient(to bottom right, #9068ca, #bc88e6);
 }
-.comfort {
+.comfort,
+.free-basket {
   background: linear-gradient(to bottom right, #9068ca, #3d066a);
 }
 .comfort,
-.step-number {
+.step-number,
+.free-basket {
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.free-basket:hover {
+  background: #fff;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -182,7 +195,7 @@
 
 .section-baskets {
   margin: -2em;
-  padding: 6em;
+  padding: 12em;
 }
 
 .basket-title {
@@ -244,7 +257,7 @@ li.option-item {
 /* testimonals */
 .section-testimonials {
   margin: -2em;
-  padding: 6em;
+  padding: 9.6em;
   background-color: #b36a2a2e;
 }
 
@@ -297,7 +310,7 @@ li.option-item {
 /* subscription */
 .subscription {
   margin: -2em;
-  padding: 6em;
+  padding: 9.6em;
 }
 
 .sub-plan {
@@ -415,7 +428,7 @@ li.option-item {
 /* cta */
 
 .section-cta {
-  padding: 9.6em 0;
+  padding: 9.6em 0 10.8em;
 }
 
 .cta {
@@ -491,7 +504,13 @@ li.option-item {
 
 /* footer */
 .footer {
-  padding: 9.6em 0;
+  padding: 10.8em;
+  background: #ffcfa563;
+  margin-top: 8em;
+}
+
+.grid-footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
 
 .logo-col {
