@@ -1,39 +1,21 @@
-## About BakeryDash
+### BakeryDash
 
-BakeryDash is a site where user can pick which subscribtion on how oftern they can recive their baked goods that will be delievered to the user home. user pick what baked goods they would like. Then the user order will be shipped to their home.
+BakeryDash is a site where users can pick out what type of baked goods they would like and how often they want to receive their baked goods by choosing a subscription plan. After choosing a plan, the user checks out their order so the product can be shipped to their homes.
 
-## BakeryDash Website Content
+### how it's made
 
-### Summary
+Tech used: HTML and CSS
 
-Our baked goods will make you feel like you are being hugged in every bit. All based on your personal tastes and nutritional needs. We have delivered 50,000+ BakeryDash boxes last year! Choose between two of our subscriptions to get the best deals.
+### Optimizations (optional)
 
-### BakeryDash features
+used mongoose
 
-The site has a focus that will have a dotted purple color for accessibility design
+- interviewers love that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are GREAT to bring up in interviews and you can use this section as reference when studying for technical interviews!
 
-### How BakeDash works
+### Lessons learned
 
-The website works by the user picking out what type of baked goods they would like to be delivered to their homes. Then the user goes through the checkout process to have their order delivered to their address.
-
-**How we get our fresh bakery goods into your hands**
-
-### Contact information
-
-Social profiles: instagram, facebook, twitter [links to them not available yet]
-
-### Additional links [links not available yet]
-
-Create account
-Sign in
-iOS app
-Android app
-
-About BakeDash
-For Business
-Cooking partners
-Careers
-
-Recipe directory
-Help center
-Privacy & terms
+- Learn a lot about inheriting other font values from its parent element.
+- how to create different files to separate the usage of different utilities.
+- learned about font sizes and when to use them.
+- how to layer out webpages using flexbox and grid.
+- learned how to use box shadow on focus state
