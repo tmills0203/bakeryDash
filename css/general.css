@@ -45,7 +45,8 @@ body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #4f4e4e;
+  color: #484646;
+  overflow-x: hidden;
 }
 
 a {

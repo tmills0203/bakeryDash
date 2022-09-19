@@ -1,3 +1,12 @@
+/*
+font-size px
+10 /12/14/16/18/20/24/30/36/44/52/62/74/86/98
+
+spacing system px
+2/4/8/12/24/32/48/62/80/96/128
+
+*/
+
 :root {
   --primary: #402b1e;
 }
@@ -14,6 +23,28 @@
 
 .logo {
   height: 4.2rem;
+}
+
+/* mobile nav */
+
+.mobile-nav-btn {
+  display: flex;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 4rem;
+  display: none;
+}
+
+.mobile {
+  height: 3.8rem;
+  width: 3.8rem;
+  color: #333;
+}
+
+/* select css based on attributes */
+.mobile[name="mobile-close"] {
+  display: none;
 }
 
 /* nav */
@@ -73,6 +104,10 @@
 .section-steps .head-secondary,
 .section-baskets .head-secondary {
   margin-bottom: 1.8em;
+}
+
+.diets .head-secondary {
+  margin-top: 2em;
 }
 
 .section-steps .step-heading {
@@ -216,6 +251,19 @@
   font-weight: 600;
   margin-bottom: 1em;
   margin-top: 1em;
+  position: relative;
+}
+
+.line-divide::after {
+  content: "";
+  position: absolute;
+
+  width: 25%;
+
+  border-bottom: 2px solid #d3d3d3ad;
+  line-height: 5rem;
+  transform: translateX(-243%);
+  top: 124%;
 }
 
 .bread-selections {
@@ -223,6 +271,7 @@
   flex-direction: column;
   gap: 2rem;
   list-style: none;
+  margin-top: 4em;
 }
 
 .bread-selection,
@@ -248,7 +297,7 @@
 
 .mixed-basket-img img {
   height: 53%;
-  width: 81%;
+  width: 100%;
   position: absolute;
   top: 47%;
   bottom: 103px;
@@ -266,9 +315,6 @@ li.option-item {
 }
 
 /* diet options */
-.diets {
-  margin-left: 2em;
-}
 
 .diets .head-secondary {
   font-size: 3rem;
