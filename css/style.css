@@ -75,16 +75,29 @@
   margin-bottom: 1.8em;
 }
 
-.section-steps div div div {
-  padding: 1.7em;
-  font-size: 26px;
+.section-steps .step-heading {
+  font-size: 3rem;
 }
 
-.step-content {
-  font-size: 2rem;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-  background-color: #b36a2a2e;
-  padding-top: 3.5em;
+.section-steps .step-desc {
+  font-size: 2.2rem;
+}
+
+.section-step {
+  padding: 2em;
+}
+
+.step-one {
+  padding: 3em;
+}
+
+.step-two,
+.step-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 5em;
 }
 
 .step-content,
@@ -149,7 +162,6 @@
 }
 
 .step-img[src="img/baker.png"] {
-  width: 620px;
   margin: 0 auto;
 }
 
@@ -227,6 +239,27 @@
   object-fit: cover;
 }
 
+.mixed-basket-img {
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+  /* overflow: hidden;
+  border-radius: 12px; */
+  position: relative;
+}
+
+.mixed-basket-img img {
+  height: 53%;
+  width: 81%;
+  position: absolute;
+  top: 47%;
+  bottom: 103px;
+  left: 28%;
+  object-fit: contain;
+}
+
+.hidden {
+  display: none;
+}
+
 li.option-item {
   font-size: 2.5rem;
   margin-bottom: 1em;
@@ -243,9 +276,10 @@ li.option-item {
 
 .options {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   gap: 1.6rem;
   font-size: 2.5rem;
+  margin-bottom: 1.1em;
 }
 
 /* all breads */
@@ -429,6 +463,7 @@ li.option-item {
 
 .section-cta {
   padding: 9.6em 0 10.8em;
+  margin: 0 3em;
 }
 
 .cta {

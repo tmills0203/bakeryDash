@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/util.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
     <title>BakeryDash</title>
   </head>
   <body>
@@ -92,7 +93,7 @@
 
           <div class="container grid grid-2-cols ">
             <!-- step 1 -->
-            <div class="step-content">
+            <div class="step-content step-one">
               <p class="step-number">1</p>
               <h3 class="step-heading">
                 We have you in mind. Tell us what is your likes and dislikes!
@@ -117,7 +118,7 @@
               />
             </div>
 
-            <div class="step-content">
+            <div class="step-content step-two">
               <p class="step-number">2</p>
               <h3 class="step-heading">
                 Just order online or on your mobile device!
@@ -129,7 +130,7 @@
             </div>
 
             <!-- step 3 -->
-            <div class="step-content">
+            <div class="step-content step-three">
               <p class="step-number">3</p>
               <h3 class="step-heading">Ready to checkout?</h3>
 
@@ -178,6 +179,9 @@
                   <li class="bread-selection"><i class="fa-solid fa-wheat-awn icon"></i>Dutch-Oven</li>
                   <li class="bread-selection"><i class="fa-solid fa-wheat-awn icon"></i>Focaccia</li>
                 </ul>
+                <div class="container all-bread ">
+                  <a class="ATC-btn link" href="#" class="link">Add to cart &rarr;</a>
+                </div>
               </div>
             </div>
 
@@ -190,41 +194,78 @@
                 <p class="basket-title">Sweet basket</p>
                 <ul class="bread-selections">
                   <li class="bread-selection">
-                    <i class="fa-solid fa-cookie icon"></i>
+                    <i class="fa-solid fa-cookie-bite icon"></i>
                     <span>Cinnamon roll</span>
                   </li>
-                  <li class="bread-selection"><i class="fa-solid fa-cookie icon"></i>Cream Puff</li>
-                  <li class="bread-selection"><i class="fa-solid fa-cookie icon"></i>Danish pastry</li>
-                  <li class="bread-selection"><i class="fa-solid fa-cookie icon"></i>Strudel</li>
-                  <li class="bread-selection"><i class="fa-solid fa-cookie icon"></i>Strawberry tart</li>
+                  <li class="bread-selection"><i class="fa-solid fa-cookie-bite icon"></i>Cream Puff</li>
+                  <li class="bread-selection"><i class="fa-solid fa-cookie-bite icon"></i>Danish pastry</li>
+                  <li class="bread-selection"><i class="fa-solid fa-cookie-bite icon"></i>Strudel</li>
+                  <li class="bread-selection"><i class="fa-solid fa-cookie-bite icon"></i>Strawberry tart</li>
                 </ul>
+                <div class="container all-bread ">
+                  <a class="ATC-btn link" href="#" class="link">Add to cart &rarr;</a>
+                </div>
               </div>
             </div>
+
+            <!-- mixed basket -->
+            <div class="basket">
+              <img src="./img/mixed.jpg" alt="banana bread" class="basket-img">
             
 
-            <!--bread options  -->
-            <div class="diets">
-              <h3 class="head-secondary">breads that fit your diet</h3>
-              <ul class="options">
-                <li class="option-item">
-                  <i class="fa-solid fa-check icon"></i>
-                  Vegan
-                </li>
-                <li class="option-item">
-                  <i class="fa-solid fa-check icon"></i>
-                  Gluten-free
-                </li>
-                <li class="option-item">
-                  <i class="fa-solid fa-check icon"></i>
-                  lactose-free
-                </li>
-                <li class="option-item">
-                  <i class="fa-solid fa-check icon"></i>
-                  Keto
-                </li>
-              </ul>
+              <div class="basket-content">
+                <p class="basket-title">Mixed basket</p>
+                <ul class="bread-selections">
+                  <li class="bread-selection">
+                    <i class="fa-solid fa-wheat-awn icon"></i>
+                    Olive & Thyme
+                  </li>
+                  <li class="bread-selection"><i class="fa-solid fa-cookie-bite icon"></i>Banana Pudding Cookie</li>
+                  <li class="bread-selection"><i class="fa-solid fa-wheat-awn icon"></i>Multigrain</li>
+                  <li class="bread-selection"><i class="fa-solid fa-cookie-bite icon"></i>Carrot Cake</li>
+                  <li class="bread-selection"><i class="fa-solid fa-wheat-awn icon"></i>Ciabatta</li>
+                </ul>
+                <div class="container all-bread ">
+                  <a class="ATC-btn link" href="#" class="link">Add to cart &rarr;</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- empty space -->
+            <div class="mixed-basket-img hidden">
+              <img src="./img/bread.png" alt="read in basket" class="basket-img">
+          
             </div>
           </div>
+          <!--bread options  -->
+          <div class="diets">
+            <h3 class="head-secondary">breads that fit your diet</h3>
+            <ul class="options">
+              <li class="option-item">
+                <i class="fa-solid fa-check icon"></i>
+                Vegan
+              </li>
+              <li class="option-item">
+                <i class="fa-solid fa-check icon"></i>
+                Gluten-free
+              </li>
+              <li class="option-item">
+                <i class="fa-solid fa-check icon"></i>
+                lactose-free
+              </li>
+              <li class="option-item">
+                <i class="fa-solid fa-check icon"></i>
+                Keto
+              </li>
+              <li class="option-item">
+                <i class="fa-solid fa-check icon"></i>
+                Paleo
+              </li>
+
+              
+            </ul>
+            
+        </div>
          <div class="container all-bread">
           <a href="#" class="link">More bread selections &rarr;</a>
          </div>

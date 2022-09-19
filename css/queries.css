@@ -1,0 +1,72 @@
+@media (max-width: 1398px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .section-steps .grid {
+    display: grid;
+    column-gap: 0em;
+    row-gap: 0em;
+  }
+
+  .section-baskets .grid-3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hidden {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 1344px) {
+  .head-primary {
+    font-size: 4.4rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .head-secondary {
+    font-size: 3.5rem;
+  }
+  .sub-heading {
+    font-size: 2rem;
+  }
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .header {
+    padding: 5em;
+  }
+
+  .nav-list {
+    gap: 2em;
+  }
+}
+
+@media (max-width: 1078px) {
+  .section-testimonials {
+    padding: 6.6em 7em;
+  }
+
+  .testimonial-text {
+    font-size: 1.4rem;
+  }
+  .testimonials {
+    gap: 5em;
+  }
+}
+
+@media (max-width: 546px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 1fr);
+  }
+
+  .gallery-item img {
+    display: inline-block;
+    height: 100%;
+    object-fit: cover;
+  }
+}
