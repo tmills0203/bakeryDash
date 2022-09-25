@@ -19,3 +19,4 @@ used mongoose
 - learned about font sizes and when to use them.
 - how to layer out webpages using flexbox and grid.
 - learned how to use box shadow on focus state
+- Able to create media queries when webpage started to break.

@@ -16,22 +16,25 @@
     <link rel="stylesheet" href="css/util.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
+
+
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script defer src="js/index.js"></script>
     <title>BakeryDash</title>
   </head>
   <body>
     <!-- header -->
-    <header id="header">
+    <header id="header" id="top">
       <a href="#">
       <img src="img/bakeryDashLogo.png" alt="bakeryDashLogo" class="logo" />
     </a>
 
       <nav class="main-nav">
         <ul class="nav-list">
-          <li><a class="nav-link" href="#">How it works</a></li>
-          <li><a class="nav-link" href="#">Sample Baskets</a></li>
-          <li><a class="nav-link" href="#">Testimonials</a></li>
-          <li><a class="nav-link" href="#">Subscription</a></li>
-          <li><a class="nav-link nav-cta free-basket" href="#">Free Basket</a></li>
+          <li><a class="nav-link" href="#how">How it works</a></li>
+          <li><a class="nav-link" href="#baskets">Sample Baskets</a></li>
+          <li><a class="nav-link" href="#sub">Subscription</a></li>
+          <li><a class="nav-link nav-cta free-basket" href="#cta">Free Basket</a></li>
         </ul>
       </nav>
 
@@ -58,10 +61,10 @@
               needs. We have delivered 50,000+ BakeDash boxes last year! Choose
               between two of our subscriptions to get the best deals.
             </p>
-            <a href="#" class="btn btn-explore margin-right-sm"
-              >Explore our bake goods</a
+            <a href="#sub" class="btn btn-explore margin-right-sm"
+              >Explore our baked goods</a
             >
-            <a href="#" class="btn btn-learn">Learn More ↓</a>
+            <a href="#how" class="btn btn-learn">Learn More ↓</a>
           </div>
           <div class="hero-innerImg">
             <img class="hero-img" src="img/head-img.png" alt="hero-img" />
@@ -92,7 +95,7 @@
       </section>
 
       <!-- how it works -->
-      <section class="section-steps">
+      <section class="section-steps" id="how">
         <div class="container">
           <span class="sub-heading">How It Works</span>
           <h2 class="head-secondary">
@@ -162,7 +165,7 @@
       </section>
 
       <!-- bread baskets -->
-      <section class="section-baskets">
+      <section class="section-baskets" id="baskets">
         <div class="container ">
           <span class="sub-heading">Sample Baskets</span>
           <h2 class="head-secondary">
@@ -347,7 +350,7 @@
       </section>
 
       <!-- pricing -->
-      <section class="subscription">
+      <section class="subscription" id="sub">
         <div class="container">
            <span class="sub-heading">Subscription</span>
           <h2 class="head-secondary">
@@ -392,7 +395,7 @@
       </section>
 
       <!-- cta -->
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
              <div class="cta-content">
@@ -433,7 +436,11 @@
           <div class="cta-img" role="img" aria-label="woman eating a donut"></div>
           </div>
         </div>
+
       </section>
+
+
+    
     </main>
 
     <!-- footer -->

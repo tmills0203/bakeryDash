@@ -101,6 +101,10 @@
   border-radius: 10px;
 }
 
+.top {
+  font-size: 2rem;
+}
+
 /* link */
 .link:link,
 .link:visited {
