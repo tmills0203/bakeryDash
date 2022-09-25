@@ -12,13 +12,13 @@ spacing system px
 }
 
 /* header */
-.header {
+#header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(to top right, #e8a76647, #c7770ed6);
+  background: linear-gradient(to top right, #e8a76647, #c7770ed6) !important;
   height: 9.6rem;
-  padding: 0 4.8em;
+  padding: 5em;
 }
 
 .logo {
@@ -243,6 +243,7 @@ spacing system px
 .section-baskets {
   margin: -2em;
   padding: 12em;
+  width: 100%;
 }
 
 .basket-title {
@@ -251,19 +252,8 @@ spacing system px
   font-weight: 600;
   margin-bottom: 1em;
   margin-top: 1em;
-  position: relative;
-}
-
-.line-divide::after {
-  content: "";
-  position: absolute;
-
-  width: 25%;
-
-  border-bottom: 2px solid #d3d3d3ad;
-  line-height: 5rem;
-  transform: translateX(-243%);
-  top: 124%;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid #d3d3d365;
 }
 
 .bread-selections {
@@ -587,7 +577,6 @@ li.option-item {
 .footer {
   padding: 10.8em;
   background: #ffcfa563;
-  margin-top: 8em;
 }
 
 .grid-footer {

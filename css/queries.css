@@ -1,23 +1,3 @@
-@media (max-width: 1398px) {
-  html {
-    font-size: 56.25%;
-  }
-
-  .section-steps .grid {
-    display: grid;
-    column-gap: 0em;
-    row-gap: 0em;
-  }
-
-  .section-baskets .grid-3-cols {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .hidden {
-    display: inline-block;
-  }
-}
-
 @media (max-width: 1344px) {
   .head-primary {
     font-size: 4.4rem;
@@ -45,11 +25,29 @@
   }
 }
 
-@media (max-width: 1075px) {
+@media (max-width: 1175px) {
   html {
-    font-size: 50%;
+    font-size: 57.5%;
+  }
+  .section-steps .grid {
+    display: grid;
+    column-gap: 0em;
+    row-gap: 0em;
   }
 
+  .section-baskets .grid-3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hidden {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 1075px) {
+  html {
+    font-size: 55.5%;
+  }
   /* mobile */
 
   .mobile-nav-btn {
@@ -113,12 +111,16 @@
 
   .section-hero .grid-container {
     grid-template-columns: 1fr;
-    padding: 9em 13em 5em 13em;
+    padding: 9em 10em 5em 10em;
     text-align: center;
   }
 
   .hero-img {
     display: none;
+  }
+
+  .section-steps {
+    padding: 5.6em 2em;
   }
 
   .mixed-basket-img img {
@@ -127,7 +129,7 @@
   }
 
   .diets {
-    margin-top: 9em;
+    margin-top: 3em;
   }
 
   .basket-content {
@@ -137,10 +139,6 @@
   .testimonials {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-
-  .gallery {
-    grid-template-columns: repeat(3, 1fr);
   }
 
   .subscription .grid-3-cols {
@@ -156,10 +154,14 @@
   }
 
   .bread-selections {
-    flex-direction: row;
+    display: grid;
 
-    margin-top: 4em;
+    gap: 2rem;
+    list-style: none;
+
+    grid-template-columns: repeat(3, 1fr);
   }
+
   .hidden {
     display: none;
   }
@@ -195,15 +197,210 @@
   }
 }
 
-@media (max-width: 546px) {
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr 1fr);
+@media (max-width: 858px) {
+  html {
+    font-size: 50%;
   }
 
-  .gallery-item img {
+  .basket-title {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .basket-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bread-selections {
+    flex-direction: column;
+
+    margin: 0 auto;
+  }
+
+  /* .bread-selections {
+    display: flex;
+
+    flex-direction: column;
+  } */
+
+  .bread-selection {
+    line-height: 1.8em;
+  }
+
+  .diets {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .options {
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .all-bread {
+    margin-top: 1em;
+    text-align: center;
+  }
+
+  .ATC-btn {
+    padding: 0.5em 3.5em;
+  }
+
+  .grid-2-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .sub-plan {
+    width: 76%;
+  }
+
+  .sub-plan_weekly {
+    margin-bottom: -5em;
+  }
+
+  .sub-plan_weekly,
+  .sub-plan_monthly {
+    justify-self: center;
+  }
+
+  .step-img:not(.img-three) {
+    display: none;
+  }
+
+  .section-cta {
+    padding: 4.6em 0 10.8em;
+  }
+
+  /* footer */
+  .grid-footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .logo-col,
+  .address-col {
+    grid-column: span 3;
+  }
+
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3em;
+  }
+}
+
+@media (max-width: 675px) {
+  html {
+    font-size: 45.5%;
+  }
+
+  .section-hero .grid-container {
+    padding: 6em 2em 0 2em;
+  }
+
+  .btn-explore {
+    margin-bottom: 1em;
+  }
+
+  .margin-right-sm {
+    margin-right: 0.5em !important;
+  }
+
+  .section-steps,
+  .section-baskets {
+    padding: 5.6em 3em;
+  }
+
+  .section-baskets {
+    margin: 0;
+  }
+
+  .basket {
+    width: 100%;
+    margin: 0;
+  }
+
+  .bread-selections {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bread-selection,
+  .option-item {
+    font-size: 2.5rem;
+  }
+
+  .sub-plan {
+    width: 100%;
+  }
+
+  .subscription {
+    padding: 5.6em;
+  }
+  .section-testimonials .sub-heading,
+  .section-testimonials .head-secondary {
+    text-align: center;
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-img {
+    height: 32rem;
+    grid-row: 1;
+    background-position: 0em;
+  }
+
+  .cta-content {
+    padding: 4.5em 3em;
+  }
+}
+
+@media (max-width: 498px) {
+  html {
+    font-size: 45%;
+  }
+  .step-one {
+    padding: 0em;
+  }
+  .step-two,
+  .step-three {
+    padding: 2em 1em;
+  }
+
+  .bread-selections {
+    display: flex;
+
+    flex-direction: column;
+  }
+  .section-testimonials {
+    padding: 6.6em 4em;
+  }
+  .subscription {
+    padding: 7.6em 4em;
+  }
+
+  .footer .grid {
     display: inline-block;
-    height: 100%;
-    object-fit: cover;
+  }
+
+  .footer {
+    padding: 6.8em 3em;
+  }
+
+  .copyright {
+    margin-bottom: 3em;
+  }
+
+  .address-col > * {
+    margin-bottom: 1.5em;
   }
 }
