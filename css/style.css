@@ -174,13 +174,13 @@ spacing system px
 .comfort,
 .step-number,
 .free-basket {
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .free-basket:hover {
   background: #fff;
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
