@@ -1,6 +1,6 @@
 
 
-Link to website: [BakeryDash](https://media.giphy.com/media/muGqYfdUOOK5xJDHyO/giphy.gif)
+Link to website: ![BakeryDash](https://media.giphy.com/media/muGqYfdUOOK5xJDHyO/giphy.gif)
 
 
 # bakeryDash
