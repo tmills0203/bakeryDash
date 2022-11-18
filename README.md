@@ -1,7 +1,7 @@
 
 
-Link to website: [BakeryDash](https://bakerydash.netlify.app/)
-![BakeryDash](https://github.com/tmills0203/bakeryDash/blob/main/img/ezgif.com-gif-maker.gif)
+Link to website: [BakeryDash](https://media.giphy.com/media/muGqYfdUOOK5xJDHyO/giphy.gif)
+
 
 # bakeryDash
 A bakery company that can deliver fresh baked goods to homes
