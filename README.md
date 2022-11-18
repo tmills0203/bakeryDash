@@ -1,4 +1,4 @@
-<img src="\img\ezgif.com-gif-maker.gif" alt="website-gif" width="100%">
+<img src="img\ezgif.com-gif-maker.gif" alt="website-gif" width="75%">
 
 # bakeryDash
 A bakery company that can deliver fresh baked goods to homes
