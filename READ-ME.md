@@ -1,3 +1,5 @@
+<img src="\img\ezgif.com-gif-maker.gif" alt="bakeryDash-gif" width="100%">
+
 ### BakeryDash
 
 BakeryDash is a site where users can pick out what type of baked goods they would like and how often they want to receive their baked goods by choosing a subscription plan. After choosing a plan, the user checks out their order so the product can be shipped to their homes.
