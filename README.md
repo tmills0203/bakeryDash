@@ -1,4 +1,4 @@
-<img src="https://media.giphy.com/media/JVGLHEuzbVviw/giphy.gif" alt="funny GIF" width="100%">
+<img src="\img\ezgif.com-gif-maker.gif" alt="website-gif" width="100%">
 
 # bakeryDash
 A bakery company that can deliver fresh baked goods to homes
@@ -10,9 +10,9 @@ how it's made
 Tech used: HTML, CSS and JS
 Lessons learned
 
-   - Learn a lot about inheriting other font values from its parent element.
-   - how to create different files to separate the usage of different utilities.
-   - learned about font sizes and when to use them.
-   -  how to layer out webpages using flexbox and grid.
-   - learned how to use box shadow on focus state
-   - Able to create media queries when webpage started to break.
+- Learn a lot about inheriting other font values from its parent element.
+- how to create different files to separate the usage of different utilities.
+- learned about font sizes and when to use them.
+-  how to layer out webpages using flexbox and grid.
+- learned how to use box shadow on focus state
+- Able to create media queries when webpage started to break.
