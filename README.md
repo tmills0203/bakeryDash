@@ -1,4 +1,6 @@
+
 <img src="img\ezgif.com-gif-maker.gif" alt="website-gif" width="75%">
+Link to website: [BakeryDash](https://bakerydash.netlify.app/)
 
 # bakeryDash
 A bakery company that can deliver fresh baked goods to homes
